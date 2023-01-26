@@ -4,8 +4,11 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 
 import matplotlib
-st.markdown('''<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />''', unsafe_allow_html=True)   
-matplotlib.rcParams['font.family'] = 'Pretendard' 
+st.markdown('''<style>
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+font-family: 'Nanum Gothic', sans-serif;
+</style>''', unsafe_allow_html=True)   
+matplotlib.rcParams['font.family'] = 'Nanum Gothic' 
 matplotlib.rcParams['axes.unicode_minus'] = False
 folder = './data/' 
 file = folder + 'factory.csv'
