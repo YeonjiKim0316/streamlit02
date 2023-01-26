@@ -11,7 +11,7 @@ html {
 font-family: 'Nanum Gothic', sans-serif;
 }
 </style>''', unsafe_allow_html=True)   
-matplotlib.rcParams['font.family'] = 'Nanum Gothic' 
+matplotlib.rcParams['font.family'] = 'NanumGothic' 
 matplotlib.rcParams['axes.unicode_minus'] = False
 folder = './data/' 
 file = folder + 'factory.csv'
