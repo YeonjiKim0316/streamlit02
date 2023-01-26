@@ -6,7 +6,10 @@ from io import BytesIO
 import matplotlib
 st.markdown('''<style>
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+html {
 font-family: 'Nanum Gothic', sans-serif;
+}
 </style>''', unsafe_allow_html=True)   
 matplotlib.rcParams['font.family'] = 'Nanum Gothic' 
 matplotlib.rcParams['axes.unicode_minus'] = False
