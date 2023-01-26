@@ -6,7 +6,7 @@ from io import BytesIO
 import matplotlib
 matplotlib.rcParams['font.family'] = 'Malgun Gothic' 
 matplotlib.rcParams['axes.unicode_minus'] = False
-folder = '../data/' 
+folder = './data/' 
 file = folder + 'factory.csv'
 df1 = pd.read_csv(file, index_col='year') 
 file = folder + '영업팀별_판매현황.xlsx'
