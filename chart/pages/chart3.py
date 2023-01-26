@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 
 import matplotlib
-matplotlib.rcParams['font.family'] = 'Malgun Gothic' 
+matplotlib.rcParams['font.family'] = 'Nanum Gothic' 
 matplotlib.rcParams['axes.unicode_minus'] = False
 folder = './data/' 
 file = folder + 'factory.csv'
