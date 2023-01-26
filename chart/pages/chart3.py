@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 
 import matplotlib
-matplotlib.rcParams['font.family'] = 'Nanum Gothic' 
+st.markdown('''<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />''')   
+matplotlib.rcParams['font.family'] = 'Pretendard' 
 matplotlib.rcParams['axes.unicode_minus'] = False
 folder = './data/' 
 file = folder + 'factory.csv'
