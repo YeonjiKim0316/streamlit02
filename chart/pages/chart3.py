@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 
 import matplotlib
-st.markdown('''<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />''')   
+st.markdown('''<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />''', unsafe_allow_html=True)   
 matplotlib.rcParams['font.family'] = 'Pretendard' 
 matplotlib.rcParams['axes.unicode_minus'] = False
 folder = './data/' 
