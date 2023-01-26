@@ -5,13 +5,12 @@ from io import BytesIO
 
 import matplotlib
 st.markdown('''<style>
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&family=Nanum+Gothic&family=Noto+Serif+KR:wght@300&display=swap');
+font-family: 'Do Hyeon', sans-serif;
+</style>
 
-html {
-font-family: 'Nanum Gothic', sans-serif;
-}
-</style>''', unsafe_allow_html=True)   
-matplotlib.rcParams['font.family'] = 'NanumGothic' 
+''', unsafe_allow_html=True)   
+matplotlib.rcParams['font.family'] = 'Do Hyeon' 
 matplotlib.rcParams['axes.unicode_minus'] = False
 folder = './data/' 
 file = folder + 'factory.csv'
