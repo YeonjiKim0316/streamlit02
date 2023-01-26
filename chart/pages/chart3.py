@@ -6,10 +6,10 @@ from io import BytesIO
 import matplotlib
 matplotlib.rcParams['font.family'] = 'Malgun Gothic' 
 matplotlib.rcParams['axes.unicode_minus'] = False
-folder = '../../data/' 
+folder = '../data/' 
 file = folder + 'factory.csv'
 df1 = pd.read_csv(file, index_col='year') 
-file = folder + 'salesteam.xlsx'
+file = folder + '영업팀별_판매현황.xlsx'
 df2 = pd.read_excel(file, index_col='월') 
 st.title("스트림릿에서 차트 그리기")
 ax = df1.plot(grid=True, figsize=(15,5))
